@@ -18,14 +18,14 @@ jobs:
 
       - run: npm ci
 
+      - name: Build core engine
+        run: npm run build --workspace=@concord/core
+
       - name: Lint
         run: npm run lint
 
       - name: Test core engine
         run: npm run test --workspace=@concord/core
-
-      - name: Build core engine
-        run: npm run build --workspace=@concord/core
 
       - name: Build web demo
         run: npm run build --workspace=@concord/web

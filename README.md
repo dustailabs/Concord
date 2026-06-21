@@ -11,7 +11,7 @@ implementation: the same pattern (router → specialist → synthesizer, with a
 full trace at every step) generalizes to triage, classification, and decision
 pipelines well beyond support tickets.
 
-**[Live demo →](https://dustailabs.github.io/concord/)**
+**[Live demo →](https://dustailabs.github.io/Concord/)**
 
 ---
 
