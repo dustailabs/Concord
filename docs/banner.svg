@@ -1,0 +1,21 @@
+<svg width="1280" height="280" viewBox="0 0 1280 280" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Concord — multi-agent orchestration for autonomous support triage, by Dust AI Labs">
+  <rect width="1280" height="280" fill="#0B1220"/>
+  <rect x="0.5" y="0.5" width="1279" height="279" fill="none" stroke="#26334D"/>
+
+  <!-- dispatch board motif: three nodes, router -> specialist -> synthesizer -->
+  <g transform="translate(860,60)">
+    <line x1="0" y1="20" x2="340" y2="20" stroke="#26334D" stroke-width="2"/>
+    <circle cx="0" cy="20" r="7" fill="#5EEAD4"/>
+    <circle cx="170" cy="20" r="7" fill="#FFB454"/>
+    <circle cx="340" cy="20" r="7" fill="#26334D" stroke="#8C9AB5" stroke-width="2"/>
+    <text x="0" y="50" fill="#8C9AB5" font-family="Courier New, monospace" font-size="13">router</text>
+    <text x="140" y="50" fill="#FFB454" font-family="Courier New, monospace" font-size="13">specialist</text>
+    <text x="305" y="50" fill="#8C9AB5" font-family="Courier New, monospace" font-size="13">synth</text>
+  </g>
+
+  <text x="80" y="120" fill="#E8ECF1" font-family="Helvetica, Arial, sans-serif" font-size="58" font-weight="700">Concord</text>
+  <text x="80" y="160" fill="#8C9AB5" font-family="Helvetica, Arial, sans-serif" font-size="20">Multi-agent orchestration for autonomous support triage</text>
+
+  <text x="80" y="225" fill="#5EEAD4" font-family="Courier New, monospace" font-size="14">by Dust AI Labs</text>
+  <text x="80" y="248" fill="#8C9AB5" font-family="Courier New, monospace" font-size="13">AI engineering consultancy — agentic systems · RAG · LLM integration</text>
+</svg>

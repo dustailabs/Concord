@@ -1,4 +1,11 @@
+<img src="./docs/banner.svg" alt="Concord — multi-agent orchestration for autonomous support triage" width="100%" />
+
 # Concord
+
+[![CI](https://github.com/dustailabs/Concord/actions/workflows/ci.yml/badge.svg)](https://github.com/dustailabs/Concord/actions/workflows/ci.yml)
+[![License: MIT](https://img.shields.io/badge/license-MIT-5EEAD4.svg)](./LICENSE)
+[![Live Demo](https://img.shields.io/badge/demo-live-FFB454)](https://dustailabs.github.io/Concord/)
+[![Built with TypeScript](https://img.shields.io/badge/built%20with-TypeScript-3178C6)](https://www.typescriptlang.org/)
 
 **A multi-agent orchestration framework for autonomous support triage.**
 
@@ -106,6 +113,17 @@ MIT — see [LICENSE](./LICENSE).
 
 ---
 
-Built by [Dust AI Labs](https://github.com/dustailabs). We build agentic AI
-systems, RAG pipelines, and LLM workflow automation for teams that need AI
-that ships, not a demo.
+## About Dust AI Labs
+
+Dust AI Labs is an AI engineering consultancy. We architect, build, and ship
+production GenAI systems — agentic pipelines, retrieval-augmented knowledge
+platforms, and LLM-driven automation — for FinTech, Healthcare, E-Commerce,
+LegalTech, and Enterprise SaaS clients. Every engagement is built end-to-end
+by a single senior practitioner: no offshoring, no junior pass-through.
+
+Concord is one of several open-source reference builds — see the
+[full profile, case studies, and engagement models →](https://github.com/dustailabs)
+
+**Get in touch:** [dustailabs@proton.me](mailto:dustailabs@proton.me) ·
+[book a discovery call](https://calendly.com/dustailabs-proton)
+
