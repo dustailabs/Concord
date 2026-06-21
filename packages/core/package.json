@@ -1,0 +1,25 @@
+{
+  "name": "@concord/core",
+  "version": "0.1.0",
+  "description": "Multi-agent orchestration engine: router, specialist, and synthesizer agents for autonomous support triage.",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "vitest run",
+    "lint": "tsc -p tsconfig.json --noEmit"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.2",
+    "vitest": "^3.2.4",
+    "@types/node": "^22.7.5"
+  },
+  "license": "MIT"
+}

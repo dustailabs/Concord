@@ -1,0 +1,22 @@
+{
+  "name": "concord",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A multi-agent orchestration framework for autonomous support triage, built by Dust AI Labs.",
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ],
+  "scripts": {
+    "build": "npm run build --workspace=@concord/core && npm run build --workspace=@concord/web",
+    "test": "npm run test --workspace=@concord/core",
+    "lint": "npm run lint --workspace=@concord/core && npm run lint --workspace=@concord/web",
+    "dev": "npm run dev --workspace=@concord/web"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dustailabs/concord.git"
+  },
+  "author": "Dust AI Labs"
+}
